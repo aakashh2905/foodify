@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodify</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" >
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+     <!-- <link src="owl.carousel.min.css"> -->
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+ 
+   <!-- <link src="css/bootstrap.min.css"> -->
+     <link href="/css/styles.css" rel="stylesheet"> 
+    </head>
+<body>
+
+    
+    
+    <div class="container-fluid fixed-top px-0">
+        <div class="top-bar row gx-0 align-items-center d-none me-5 pe-5  py-lg-2 ">
+            <div class="col-lg-6 px-5 text-start ">
+                <small><i class="fa fa-map-marker-alt me-2 ms-0  text-start "></i>123 Street, New York, USA</small>
+                <small class="ms-1"><i class="fa fa-envelope me-2"></i>info@example.com</small>
+            </div>
+            <div class="col-lg-6 text-end pe-0 me-0">
+                <small>Follow us:</small>
+                <a class="text-body ms-3 " href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3 " href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-body ms-3 me-" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="line-between-sections mb-0 px-0 mx-0 d-none"></div>
+        </div>
+        
+
+<nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5">
+    <a href="index.html" class="navbar-brand ms-4 ms-lg-0 mt-1  p-2">
+        <h1 class="text-primary m-0  fw-bold lora">F<span class="text-secondary fw-bold lora">oo</span>dy</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mt-2" id="navbarCollapse">
+        <div class="navbar-nav ms-auto mt-1">
+            <a href="index.html" class="nav-item nav-link active  fnt">Home</a>
+            <a href="about.html" class="nav-item nav-link fnt">About Us</a>
+            <a href="product.html" class="nav-item nav-link fnt">Products</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle fnt" data-bs-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu m-0">
+                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                    <a href="feature.html" class="dropdown-item">Our Features</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="404.html" class="dropdown-item">404 Page</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link fnt">Contact Us</a>
+        </div>
+        <div class="d-none d-lg-flex">
+            <a class="btn-sm-square text-decoration-none rounded-circle ms-3" href="#">
+                <small class="fa fa-search text-body p-2"></small>
+            </a>
+            <a class="btn-sm-square g-3 rounded-circle ms-3" href="#">
+                <small class="fa fa-user text-body p-2"></small>
+            </a>
+            <a class="btn-sm-square bg-white rounded-circle ms-3" href="#">
+                <small class="fa fa-shopping-bag text-body p-2"></small>
+            </a>
+        </div>
+    </div>
+</nav>
+  
+    </div>
+
+    
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s"">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center justify-content-center vh-100">
+                        <img class="img-fluid w-100" src="img/bg-1.jpg" alt="Image">
+                        <div class="carousel-caption null text-center">
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-lg-7">
+                                        <h1 class="display-2 mb-5 animated slideInDown fw-bold text-start loras t1">Organic Food Is Good For Health</h1>
+                                        <a href="" class="btn btn-primary rounded-pill  me-3 py-sm-3 px-sm-5">Products</a>
+                                        <a href="" class="btn btn-secondary rounded-pill  py-sm-3 px-sm-5">Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center vh-100">
+                        <img class="img-fluid w-100" src="img/bg-2.jpg" alt="Image">
+                        <div class="carousel-caption null text-center">
+                            <div class="container">
+                                <div class="row justify-content-start">
+                                    <div class="col-lg-7 ">
+                                        <h1 class="display-2 mb-5 animated slideInDown fw-bold text-start loras t1">Natural Food Is Always Healthy</h1>
+                                        <div class=" pe-md-5 me-md-5">
+                                        <a href="" class="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a>
+                                        <a href="" class="btn btn-secondary rounded-pill  py-sm-3 px-sm-5 ">Services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="g-btn carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="g-btn carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+
+    
+                
+        <!-- Green img with content -->
+        <div class="container mt-5 px-5 py-lg-0 px-lg-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="img/grandpa.jpg" alt="grandpa">
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <h1 class="display-5 mb-4 lora fw-bold">Best Organic Fruits And Vegetables</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div>
+           
+        </div>
+            
+             </div>
+        <div class="container-fluid bg-light bg-icon my-5 py-5">
+            <div class="green-line-center "></div>
+            <div class="orange-line-center py-lg-0 px-lg-5">
+            </div>
+            <div class="container my-5 py-5 wow fadeInUp">
+                <div class="section-header text-center mx-auto mb-5 ">
+                    <h1 class="feat fw-bold mb-3 display-5 lora">Our Features</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, consequatur.Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="row g-4 ">
+                    <div class="col-lg-4 col-md-6 col-sm-6  p1">
+                        <div class="bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
+                            <h4 class="mb-3">Natural Process</h4>
+                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                            <a class="read-button btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  col-sm-6  p1">
+                        <div class="bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                            <h4 class="mb-3">Organic Products</h4>
+                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                            <a class="read-button btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6  col-sm-6  p1">
+                        <div class="bg-white text-center h-100 p-4 p-xl-5">
+                            <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                            <h4 class="mb-3">Biologically Safe</h4>
+                            <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
+                            <a class="read-button btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            </div>
+           
+    <div class="container-xxl py-5">
+        
+        <div class="container  ">
+            <div class="row g-0 gx-5 align-items-end ">
+              
+
+                <div class="col-lg-6 "><div class="liness mx-3">
+                    <div class="section-head align-items-start px-sm-3 mx-2"></div>
+                    <div class="section-headers px-sm-3 mx-4 align-items-start"></div></div>
+                    <div class="section-header text-start mb-5  p1 " >
+                        <h1 class="display-5 mb-3 lora fw-bold  ">Our Products</h1>
+                        <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end  " >
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="read-button btn btn-outline-primary border-2  p1 " data-bs-toggle="pill" href="#tab-1">Vegetable</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="read-button btn btn-outline-primary border-2  p1" data-bs-toggle="pill" href="#tab-2">Fruits </a>
+                        </li>
+                        <li class="nav-item me-0">
+                            <a class="read-button btn btn-outline-primary border-2  p1" data-bs-toggle="pill" href="#tab-3">Fresh</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--items   -->
+
+
+
+            <div class="tab-content ">
+                <div id="tab-1" class="tab-pane fade show p-0 active ">
+                    <div class="row g-4">
+                        
+
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-6" >
+                            <div class="product-item align-items-center p1">
+                                <div class="  position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100 " src="img/products/tomatos.jpg" alt="">
+                                    <div class="rng  position-absolute  rounded text-white  start-0 top-0 m-4 py-1 px-3 ">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 text-decoration-none" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6  col-sm-6 p1">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/products/pinaple.jpg" alt="">
+                                    <div class="rng  position-absolute  rounded text-white  start-0 top-0 m-4 py-1 px-3 ">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 text-decoration-none" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-decoration-none text-body " href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1" >
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/products/chilly.jpg" alt="">
+                                    <div class="rng  position-absolute  rounded text-white  start-0 top-0 m-4 py-1 px-3 ">New</div>
+                                </div>
+                                <div class="text-center p-4 lora">
+                                    <a class="d-block h5 mb-2 text-decoration-none" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2 ">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1" >
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/products/strawberry.jpg" alt="">
+                                    <div class="rng position-absolute rounded text-white  start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4 lora">
+                                    <a class="d-block h5 mb-2 text-decoration-none" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1" >
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/products/cucu.jpg" alt="">
+                                    <div class="rng position-absolute text-white  start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4 lora">
+                                    <a class="d-block h5 mb-2 text-decoration-none" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top ">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1" >
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100 zoom-img" src="img/products/toma2.jpg" alt="">
+                                    <div class="rng position-absolute rounded text-white  start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4 ">
+                                    <a class="d-block h5 mb-2 lora" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1" >
+                            <div class="product-item">
+                                <div class="position-avbg-light overflow-hidden">
+                                    <img class="img-fluid w-100 zoom-img" src="img/products/banana.jpg" alt="">
+                                    <div class="rng position-absolute rounded text-white start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 lora" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  p1">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100 zoom-img" src="Img/products/tomatos.jpg" alt="Fresh Tomato">
+                                    <div class="rng rounded position-absolute text-white start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2 lora" href="#">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body text-decoration-none" href="#"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 text-center ">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="">Browse More Products</a>
+                        </div>
+                    </div>
+                </div>
+                
+                       
+            </div>
+        </div>
+      </div>
+
+                    <!-- firm first
+                        -->
+                    <!-- Firm Visit Start -->
+                
+                
+                
+                <!-- Firm Visit End -->
+               
+                <div class="container-fluid bg-light bg-icon py-6 mb-5 ">
+                    <div class="green-line-center"></div><div class="orange-line-center"></div>
+                    <div class="container">
+                        <div class="section-header text-center mx-auto mb-5 py-5 ">
+                            <h1 class="display-5 mb-3 lora py-5">Customer Review</h1>
+                            <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit..<span>Ipsum diam justo sed rebum vero dolor duo.</span>Ipsum diam justo sed rebum vero dolor duo. </p>
+                        </div>
+                        <div class="carousel slide owl-carousel testimonial-carousel wow fadeInUp " data-wow-delay="0.1s">
+                            <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 rounded-circle" src="Img/testimonial-1.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 rounded-circle" src="Img/testimonial-3.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 rounded-circle" src="Img/testimonial-4.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- <div class="owl-carousel owl-theme col-12 col-sm-4">
+                            <div class="testimonial-item position-relative bg-white p-5 mt-2">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex ">
+                                    <img class=" test flex-shrink-0 rounded-circle " src="Images/testimonial-4.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item position-relative bg-white p-5 m-2">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class=" test flex-shrink-0 rounded-circle" src="Images/testimonial-3.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item position-relative bg-white p-5 m-2">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class=" test flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1 ">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div> <div class="testimonial-item position-relative bg-white p-5 m-2">
+                                <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n5 ms-5"></i>
+                                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="test flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" alt="">
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div> -->
+                            
+                            <!-- <button class="owl-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                                <span class="g-btn carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="owl-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                                <span class="g-btn carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button> -->
+                            <!-- <div class="carousel-buttons">
+                                <button class="owl-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                                    <span class="g-btn carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="owl-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                                    <span class="g-btn carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                           -->
+                    </div>
+                    <!-- <div class="owl-nav">
+                        <div class="owl-next">
+                            <i class="bi bi-chevron-left"></i>
+                        </div>
+                    </div> -->
+                    
+                    <div class="green-line-center"></div><div class="orange-line-center"></div>
+                </div>
+                <!-- Testimonial End -->
+                <!-- Blog Start -->
+                <div class="container-xxl py-5 ">
+                    <div class="container">
+                        <div class="section-header text-center mb-5">
+                            <h1 class="display-5 mx-auto lora" style="max-width: 500px;">Latest Blog</h1>
+                            <p >Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6  shadow p-3 mb-5" >
+                                <img class="img-fluid" src="img/blog-1.jpg" alt="Blog Image 1">
+                                <div class="bg-light p-4">
+                                    <a class="d-block h5 lh-base mb-4 text-decoration-none" href="#">How to cultivate organic fruits and vegetables in own farm</a>
+                                    <div class="text-muted border-top pt-4">
+                                        <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                        <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 col-md-6 fadeInUp shadow p-3 mb-5" >
+                                <img class="img-fluid" src="img/blog-2.jpg" alt="Blog Image 1">
+                                <div class="bg-light p-4">
+                                    <a class="d-block h5 lh-base mb-4 text-decoration-none" href="#">How to cultivate organic fruits and vegetables in own farm</a>
+                                    <div class="text-muted border-top pt-4">
+                                        <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                        <small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 fadeInUp shadow p-3 mb-5" >
+                                <img class="img-fluid" src="img/blog-3.jpg" alt="Blog Image 1">
+                                <div class="bg-light p-4">
+                                    <a class="d-block h5 lh-base mb-4 text-decoration-none" href="#">How to cultivate organic fruits and vegetables in own farm</a>
+                                    <div class="text-muted border-top pt-4">
+                                        <small class="me-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
+                                        <small class="me-3"><i class="fas fa-calendar text-primary me-2"></i>01 Jan, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Blog End -->
+      
+        <!--                 ///////////////////Footer/////////////// -->
+    
+    <div class="container-fluid bg-dark  ">
+        <div class="container">
+            <div class="row g-5 pt-5 ">
+                <div class="col-lg-3 col-md-6 ">
+                    <h1 class="fw-bold text-primary  lora">F<span class="text-secondary">oo</span>dy</h1>
+                    <p class="last">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <h4 class="text-light mb-4 foot-head ">Address</h4>
+                    <p class="last" ><i class="fa fa-map-marker-alt me-3"></i >123 Street, New York, USA</p>
+                    <p class="last"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="last"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4  foot-head">Quick Links</h4>
+                    <a class="btn btn-link last " href="#">About Us</a>
+                  
+                    <a class="btn btn-link last " href="#">Contact Us</a>
+                    <a class="btn btn-link last" href="#">Our Services</a>
+                    <a class="btn btn-link last" href="#">Terms & Condition</a>
+                    <a class="btn btn-link last" href="#">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light  foot-head">Newsletter</h4>
+                    <p class="foot-heads my-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto e-mail" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5 lgt" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary position-absolute py-2  top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="line-between-footer "></div>
+        <div class="container-fluid copyright px-5">
+            <div class="container">
+               
+                <div class="row text-start p-3">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        &copy; Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                         Designed ByHTML Codex</a>
+                        <br>Distributed By: Akash</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    
+     
+    </div>
+    
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!--  <script src="js/owl.carousel.min.js"></script> -->
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
